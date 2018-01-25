@@ -1,0 +1,182 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    android:background="@drawable/finalback"
+    tools:context="com.example.diptapaul.learningsystem.UpdateActivity">
+
+    <android.support.design.widget.AppBarLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        >
+        <android.support.v7.widget.Toolbar
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            app:title="Update Information"
+            app:titleTextColor="#fff"
+            android:background="#2980B9"></android.support.v7.widget.Toolbar>
+    </android.support.design.widget.AppBarLayout>
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="340dp"
+                android:background="@drawable/outline6"
+                android:layout_margin="10dp"
+                android:orientation="vertical">
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:textColor="#fff"
+                    android:layout_marginTop="20dp"
+                    android:textSize="25dp"
+                    android:text="Change Profile Picture"
+                    android:gravity="center_horizontal"/>
+
+                <ImageButton
+                    android:id="@+id/im6"
+                    android:layout_width="match_parent"
+                    android:layout_height="190dp"
+                    android:layout_marginTop="20dp"
+                    android:background="#00ffffff"
+                    android:src="@drawable/profilepic"/>
+
+                <Button
+                    android:id="@+id/b15"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginRight="26dp"
+                    android:layout_marginLeft="26dp"
+                    android:layout_marginTop="15dp"
+                    android:background="@drawable/outline5"
+                    android:text="Update Profile Picture"
+                    android:textColor="#fff"
+                    android:padding="15dp"
+                    android:textSize="17dp"
+                    />
+            </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="210dp"
+        android:background="@drawable/outline6"
+        android:layout_margin="10dp"
+        android:orientation="vertical">
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textColor="#fff"
+            android:layout_marginTop="20dp"
+            android:textSize="25dp"
+            android:text="Change Name"
+            android:gravity="center_horizontal"/>
+        <EditText
+            android:focusable="false"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:padding="15dp"
+            android:inputType="textPersonName"
+            android:hint="New Name..."
+            android:drawableRight="@drawable/username"
+            android:textColorHint="#C3C3C3"
+            android:ems="10"
+            android:textColor="#fff"
+            android:id="@+id/et12"
+            android:layout_marginTop="10dp"
+            android:layout_marginRight="15dp"
+            android:layout_marginLeft="15dp"
+            android:layout_gravity="center_horizontal"
+            android:background="@drawable/outline"/>
+        <Button
+            android:id="@+id/b12"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginRight="26dp"
+            android:layout_marginLeft="26dp"
+            android:layout_marginTop="20dp"
+            android:background="@drawable/outline5"
+            android:text="Update Name"
+            android:textColor="#fff"
+            android:padding="15dp"
+            android:textSize="17dp"
+            />
+    </LinearLayout>
+
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="300dp"
+        android:background="@drawable/outline6"
+        android:layout_margin="10dp"
+        android:orientation="vertical">
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textColor="#fff"
+            android:layout_marginTop="20dp"
+            android:layout_marginBottom="10dp"
+            android:textSize="25dp"
+            android:text="Change Password"
+            android:gravity="center_horizontal"/>
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:inputType="textPassword"
+            android:padding="15dp"
+            android:textColor="#fff"
+            android:background="@drawable/outline"
+            android:layout_marginLeft="16dp"
+            android:layout_marginRight="16dp"
+            android:layout_marginTop="10dp"
+            android:ems="10"
+            android:id="@+id/et13"
+            android:layout_gravity="center_horizontal"
+            android:hint="Old Password..."
+            android:drawableRight="@drawable/password"
+            android:textColorHint="#C3C3C3"
+            />
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:inputType="textPassword"
+            android:padding="15dp"
+            android:textColor="#fff"
+            android:background="@drawable/outline"
+            android:layout_marginLeft="16dp"
+            android:layout_marginRight="16dp"
+            android:layout_marginTop="10dp"
+            android:ems="10"
+            android:id="@+id/et14"
+            android:layout_gravity="center_horizontal"
+            android:hint="New Password..."
+            android:drawableRight="@drawable/password"
+            android:textColorHint="#C3C3C3"
+            />
+        <Button
+            android:id="@+id/b13"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginRight="26dp"
+            android:layout_marginLeft="26dp"
+            android:layout_marginTop="25dp"
+            android:background="@drawable/outline5"
+            android:text="Update Password"
+            android:textColor="#fff"
+            android:padding="15dp"
+            android:textSize="17dp"
+            />
+    </LinearLayout>
+        </LinearLayout>
+    </ScrollView>
+
+</LinearLayout>

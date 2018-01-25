@@ -1,0 +1,42 @@
+{
+  "project_info": {
+    "project_number": "127942714479",
+    "firebase_url": "https://learning-system-74e8a.firebaseio.com",
+    "project_id": "learning-system-74e8a",
+    "storage_bucket": "learning-system-74e8a.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:127942714479:android:4d453b10786406dc",
+        "android_client_info": {
+          "package_name": "com.example.diptapaul.learningsystem"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "127942714479-f73obmdgg2e59rddo79um7fcsaql5kq6.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCZG1C3pqOywpKdV1yVKp7aGLP235NFTYY"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 1,
+          "other_platform_oauth_client": []
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

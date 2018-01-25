@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    app:layout_behavior="@string/appbar_scrolling_view_behavior"
+    tools:context="com.example.diptapaul.learningsystem.QuestionActivity"
+    tools:showIn="@layout/activity_question">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Question No. "
+        android:textColor="#000"
+        android:textSize="25dp"
+        android:id="@+id/head"
+        android:textStyle="bold"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="25dp"/>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="400dp"
+        android:layout_marginRight="10dp"
+        android:layout_marginLeft="10dp"
+        android:orientation="vertical"
+        android:layout_marginTop="25dp"
+        android:background="#00ffffff">
+        <TextView
+            android:textColor="#fff"
+            android:textSize="25dp"
+            android:id="@+id/ques"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:padding="10dp"
+            android:layout_margin="10dp"/>
+
+    </LinearLayout>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginTop="10dp">
+        <EditText
+            android:id="@+id/et7"
+            android:layout_width="wrap_content"
+            android:layout_height="50dp"
+            android:inputType="text"
+            android:hint="Answer(Ex. A or B)"
+            android:paddingLeft="10dp"
+            android:textColor="#fff"
+            android:textColorHint="#C3C3C3"
+            android:layout_marginLeft="10dp"
+            android:ems="9"
+            android:background="@drawable/outline"/>
+
+        <Button
+            android:id="@+id/b7"
+            android:layout_width="wrap_content"
+            android:layout_height="50dp"
+            android:text="Next"
+            android:textColor="#fff"
+            android:background="@drawable/outline1"
+            android:ems="8"
+            android:layout_alignParentTop="true"
+            android:layout_alignParentEnd="true"
+            android:layout_marginRight="10dp"
+            android:gravity="center"/>
+
+    </RelativeLayout>
+
+</LinearLayout>

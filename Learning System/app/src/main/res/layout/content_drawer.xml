@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@drawable/finalback"
+    app:layout_behavior="@string/appbar_scrolling_view_behavior"
+    tools:context="com.example.diptapaul.learningsystem.DrawerActivity"
+    tools:showIn="@layout/app_bar_drawer">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:gravity="center">
+        <Button
+            android:id="@+id/d1"
+            android:text="Bangla Version"
+            android:textColor="#fff"
+            android:textSize="17dp"
+            android:layout_margin="20dp"
+            android:layout_width="match_parent"
+            android:layout_height="60dp"
+            android:background="@drawable/taboutline"/>
+        <Button
+            android:id="@+id/d2"
+            android:text="English Version"
+            android:textColor="#fff"
+            android:textSize="17dp"
+            android:layout_margin="20dp"
+            android:layout_width="match_parent"
+            android:layout_height="60dp"
+            android:background="@drawable/taboutline"/>
+        <Button
+            android:id="@+id/d3"
+            android:text="Forum"
+            android:textColor="#fff"
+            android:textSize="17dp"
+            android:layout_margin="20dp"
+            android:layout_width="match_parent"
+            android:layout_height="60dp"
+            android:background="@drawable/taboutline"/>
+        <Button
+            android:id="@+id/d4"
+            android:text="Rank List"
+            android:textColor="#fff"
+            android:textSize="17dp"
+            android:layout_margin="20dp"
+            android:layout_width="match_parent"
+            android:layout_height="60dp"
+            android:background="@drawable/taboutline"/>
+        <Button
+            android:id="@+id/d5"
+            android:text="About App"
+            android:textColor="#fff"
+            android:textSize="17dp"
+            android:layout_margin="20dp"
+            android:layout_width="match_parent"
+            android:layout_height="60dp"
+            android:background="@drawable/taboutline"/>
+    </LinearLayout>
+
+</LinearLayout>
